@@ -10,15 +10,15 @@ void main() {
   var x = 10;
 
   if (x % 2 == 0) {
-    print("10 is even no");
+    print("$x is even no");
   } else {
-    print("10 is odd no");
+    print("$x is odd no");
   }
 
   x = 37;
   if (x % 2 == 0) {
-    print("37 is even no");
+    print("$x is even no");
   } else {
-    print("37 is odd no");
+    print("$x is odd no");
   }
 }
