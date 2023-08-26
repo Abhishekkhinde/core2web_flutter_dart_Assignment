@@ -7,7 +7,6 @@ Output: 4 16 4 16
 
 void main() {
   var num = 942111423;
-  var square;
   while (num != 0) {
     var digit = num % 10;
     if (digit % 2 != 0) {
