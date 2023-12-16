@@ -7,7 +7,6 @@
 
 import 'dart:io';
 
-
 void main() {
   int snum = 1;
   for (int i = 1; i <= 4; i++) {
