@@ -12,7 +12,7 @@ void printPattern(int n) {
   for (int i = 1; i <= n; i++) {
     int value = i;
     for (int j = 1; j <= n - i + 1; j++) {
-      print('$value ');
+      stdout.write('$value ');
       value += j;
     }
     print('');
@@ -22,5 +22,3 @@ void printPattern(int n) {
 void main() {
   printPattern(5);
 }
-
-
